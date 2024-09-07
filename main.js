@@ -7,7 +7,7 @@ let pinAnswer = await inquirer.prompt([
         name: "pin",
         message: "Enter your pin",
         type: "number"
-    }
+    };
 ]);
 if (pinAnswer.pin === myPin) {
     console.log("Correct pin code!");
